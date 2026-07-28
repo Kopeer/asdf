@@ -636,9 +636,15 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
 
         // Firebase Configuration & Initialization
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'bintong-finder';
-        const firebaseConfig = typeof __firebase_config !== 'undefined' 
-            ? JSON.parse(__firebase_config) 
-            : { apiKey: "demo-key", authDomain: "demo.firebaseapp.com", projectId: "demo-project" };
+        const firebaseConfig = {
+          apiKey: "AIzaSyBongz1D5R_Zj92bxxVBQn8nnntEXBSxAU",
+          authDomain: "asdf-257de.firebaseapp.com",
+          projectId: "asdf-257de",
+          storageBucket: "asdf-257de.firebasestorage.app",
+          messagingSenderId: "225405363633",
+          appId: "1:225405363633:web:f5d1537394afaf0baa0990",
+          measurementId: "G-JSQVEP2R42"
+        };
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
