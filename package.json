@@ -1,0 +1,6 @@
+{
+  "name": "bin-finder-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "빈통찾기 - AI 기반 쾌적한 쓰레기통 스마트 길안내 서비스"
+}
